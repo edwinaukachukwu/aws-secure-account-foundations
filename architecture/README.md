@@ -1,4 +1,3 @@
-
 ## AWS Security Architecture Diagram
 
 The diagram below illustrates the security services configured
