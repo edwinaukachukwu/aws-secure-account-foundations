@@ -38,7 +38,7 @@ Provides an isolated environment for implementing and testing IAM security confi
 
 **Architecture Diagram**
 
-For detailed architecture documentation, see the Architecture [https://github.com/edwinaukachukwu/aws-secure-account-foundations](http://architecture/README.md)
+For detailed architecture documentation, see the Architecture ![AWS IAM Security Architecture](architecture/AWS-IAM-Security-Architecture.png)
 
 **4. Implementation**
 
@@ -102,13 +102,17 @@ Validated least-privilege permissions through the IAM Policy Simulator and live 
 
 **This project demonstrates:**
 
-*** Account Isolation:** Separating governance and testing environments.
-*** Centralized Identity Management:** Managing workforce access through IAM Identity Center.
-*** Least Privilege:** Restricting permissions to required IAM read-only operations.
-*** Role-Based Access:** Using IAM roles and permission sets to control access.
-*** Temporary Credentials:** Using AWS STS instead of long-term credentials for role sessions.
-*** Security Validation:** Testing allowed and denied API actions.
-*** Security Monitoring:** Establishing foundational logging and threat detection capabilities.
+## 5. Security Architecture Principles
+
+| Security Principle | Description |
+|---|---|
+| **Account Isolation** | Separating governance and testing environments. |
+| **Centralized Identity Management** | Managing workforce access through IAM Identity Center. |
+| **Least Privilege** | Restricting permissions to required IAM read-only operations. |
+| **Role-Based Access** | Using IAM roles and permission sets to control access. |
+| **Temporary Credentials** | Using AWS STS instead of long-term credentials for role sessions. |
+| **Security Validation** | Testing allowed and denied API actions. |
+| **Security Monitoring** | Establishing foundational logging and threat detection capabilities. |
 
 **6. Security Framework Alignment**
 
